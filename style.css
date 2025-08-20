@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body {
+    font-family:Acme;
+    font-size:17px;
+    background-color:white;
+    padding:8px;
+}
+h2 {
+    background-color:greenyellow;
+    text-align:center;
+}
+h3 {
+    background-color:lightskyblue;
+    text-align:center;
+}
+* {
+    box-sizing:border-box;
+}
+.row {
+    display:flex;
+    flex:wrap;
+    margin:0 - 16px;
+}
+.col-25 {
+    flex:25%;
+}
+.col-75 {
+    flex:75%;
+}
+.col-50 {
+    flex:50%;
+}
+.container {
+    background-color:whitesmoke;
+    padding:8px;
+}
+.divider {
+    width:1px;
+    height:100%;
+    margin:0 10px;
+}
+input {
+    width:100%
+}
+img {
+    height:25px;
+    width:30px;
+}
+.button {
+    font-family:Acme;
+    border:2px solid black;
+    background-color:lightskyblue;
+    border-radius:5px;
+    cursor:pointer;
+}
+.button:hover {
+    background-color:black;
+    color:white;
+}
+#checkout {
+    background-color:#06923E;
+    color:white;
+    border:none;
+    width:100%;
+    height:35px;
+    font-family:Acme;
+    font-size:20px;
+    cursor:pointer;
+}
+#checkout:hover {
+    background-color:lightskyblue;
+    color:black;
+}
+#tourpackage {
+    font-family:Acme;
+}
+.grey {
+    color:grey;
+    text-align:right;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+    color:grey;
+}
